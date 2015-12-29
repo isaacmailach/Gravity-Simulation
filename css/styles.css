@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+#canvas {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#menu_close, #menu_open {
+  cursor: pointer;
+  left: 0;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+}
+#menu {
+  background-color: rgba(11, 11, 11, 0.85);
+  bottom: 0;
+  box-shadow: 0;
+  box-sizing: border-box;
+  color: white;
+  left: -300px;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  transition: 1s;
+  transition-property: box-shadow, left;
+  width: 300px;
+}
+#menu.open {
+  box-shadow: 10px 0px 50px 0px rgba(0, 0, 0, 0.50);
+  left: 0;
+}
+.input {
+  width: 100%;
+}
+.slider {
+  overflow: hidden;
+  width: 100%;
+}
+.value {
+  float: right;
+}
