@@ -2,13 +2,18 @@ var canvas = new Object();
 var window = new Object();
 
 var properties = {
-  "d": 5514,
-  "framerate": 60,
-  //"paused": false,
-  "pull-strength": 0.20,
-  "r": 6371,
-  "scale": Math.pow(10, -2),
-  "speed": 1000
+  "sliders": {
+    "d": 5514,
+    "framerate": 60,
+    "sling-strength": 0.20,
+    "r": 6371,
+    "scale": Math.pow(10, -2),
+    "speed": 1000
+  },
+  "toggles": {
+    "borders": false,
+    "paused": false
+  }
 };
 
 var balls = new Array();
